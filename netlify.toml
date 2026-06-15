@@ -1,6 +1,6 @@
 [build]
-  command = "npm run install-plugins && npx quartz build"
+  command = "npx quartz build"
   publish = "public"
 
 [build.environment]
-  NODE_VERSION = "22"
+  NODE_VERSION = "20"
